@@ -1,11 +1,30 @@
 \documentclass{article}
+\usepackage{csquotes}
 \title{First Paragraphs of Technical Documents}
 \author{Zac Dover}
 
 \begin{document}
 \maketitle
 
-\section{Background}
+\section{Upgrading and Repairing PCs}
+\begin{quotation}
+Many discoveries and inventions have directly and indirectly contributed to the development of the PC and other personal computers as we know them today. Examining a few important developmental landmarks can help bring the entire picture into focus.
+\end{quotation}
+
+\section{Red Hat Enterprise Virtualization 3.4 Administration Guide}
+This guide begins with a list of the components of a RHEV 3.4 environment.
+\begin{displayquote}
+{\tiny A Red Hat Enterprise Virtualization environment consists of:}
+\begin{itemize}
+{\tiny  \item Virtual machine \textbf{hosts} using the Kernel-based Virtual Machine (KVM).}
+{\tiny  \item \textbf{Agents and tools} running on hosts including VDSM, QEMU, and libvirt. These tools provide local management for virtual machines, networks and storage.}
+{\tiny  \item \textbf{The Red Hat Enterprise Virtualization Manager}; a centralized management platform for the Red Hat Enterprise Virtualization Environment. It provides a graphical interface where you can view, provision and manage resources.}
+{\tiny  \item \textbf{Storage domains} to hold virtual resources like virtual machiens, templates, ISOs.}
+{\tiny  \item A \textbf{database} to track the state of and changes to the environment.}
+{\tiny  \item Access to an external \textbf{Directory Server} to provide users and authentication.}
+{\tiny  \item \textbf{Networking} to link the environment together. This includes physical network links, and logical networks.}
+\end{itemize}
+\end{displayquote}
 
 
 \end{document}
